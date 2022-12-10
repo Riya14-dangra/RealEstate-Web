@@ -3,6 +3,7 @@
 :root{
     --red:#ff5a3c;
     --light-red:#f9edeb;
+    --white:#fff;
 }
 
 *{
@@ -64,7 +65,7 @@ header{
     position: fixed;
     top:0; left:0; right:0;
     z-index: 1000;
-    background:#fff;
+    background:var(--white);
     padding:1.5rem 9%;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     display: flex;
@@ -128,7 +129,7 @@ header .icons #menu-bars{
 
 .home form{
     margin-top: 7rem;
-    background:#fff;
+    background:var(--white);
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
     border:.1rem solid rgba(0,0,0,.2);
@@ -171,4 +172,24 @@ header .icons #menu-bars{
 .home form .btn{
     width: 100%;
     margin-top: 2rem;
+}
+
+.dark-mode {
+    --red:#00838f ;
+    background-color: #002D33;
+    --light-red:black;
+    --white:#1c1c1c;
+    color: #fff;
+}
+
+.light-mode {
+    background-color: #fff;
+    color: black;
+}
+button{
+    padding: 10px;
+    border-radius: 50%;
+}
+button:hover{
+    background-color:grey ;
 }
