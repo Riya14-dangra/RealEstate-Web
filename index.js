@@ -25,7 +25,10 @@ function darkMode() {
    
   }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> bab1f0d5f23c281dc82484a076ea70fa2fa87b0d
   window.addEventListener('resize', function(){
     addRequiredClass();
 })

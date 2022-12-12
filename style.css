@@ -201,6 +201,7 @@ button:hover{
     background-color:grey ;
 }
 
+<<<<<<< HEAD
 .spinner-wrapper {
     position: fixed;
     top: 0;
@@ -242,6 +243,8 @@ button:hover{
     }
   }
 
+=======
+>>>>>>> bab1f0d5f23c281dc82484a076ea70fa2fa87b0d
 .mobile .nav-list li a:hover{
     background-color: rgb(255, 255, 255);
     padding: 4px;
