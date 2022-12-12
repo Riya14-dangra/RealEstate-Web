@@ -1,124 +1,155 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
-:root{
-    --red:#ff5a3c;
-    --light-red:#f9edeb;
-    --white:#fff;
+:root {
+    --red: #ff5a3c;
+    --light-red: #f9edeb;
+    --white: #fff;
 }
 
-*{
-    font-family: 'Nunito', sans-serif;
-    margin:0; padding:0;
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    outline: none; border:none;
+    outline: none;
+    border: none;
     text-decoration: none;
     text-transform: capitalize;
 }
 
-html{
+html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
 }
 
-body{
-    background:#f7f7f7;
+body {
+    background: #f7f7f7;
 }
 
-section{
-    padding:2rem 9%;
+section {
+    padding: 2rem 9%;
 }
 
-.btn{
+.btn {
     margin-top: 1rem;
     display: inline-block;
-    padding:.8rem 3.5rem;
-    border-radius: .5rem;
+    padding: .8rem 3.5rem;
+    border-radius: .7rem;
     font-size: 1.7rem;
-    color:var(--red);
-    background:var(--light-red);
+    /* color:var(--red); */
+    color: black;
+    background: #ffab9a;
+    /* background-color: rgb(255, 82, 82); */
     cursor: pointer;
     text-align: center;
+    transition: .6s;
 }
 
-.btn:hover{
-    background:var(--red);
-    color:#fff;
+.btn:hover {
+    background: var(--red);
+    color: #fff;
 }
 
-.heading{
+.heading {
     text-align: center;
-    color:#333;
+    color: #333;
     font-size: 4rem;
     padding-bottom: 3rem;
 }
 
-.heading span{
-    color:var(--red);
-    background:var(--light-red);
+.heading span {
+    color: var(--red);
+    background: var(--light-red);
     border-radius: .5rem;
-    padding:.2rem 1.5rem;
+    padding: .2rem 1.5rem;
 }
 
-header{
+header {
     position: fixed;
-    top:0; left:0; right:0;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 1000;
-    background:var(--white);
-    padding:1.5rem 9%;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    /* background:var(--white); */
+    background-color: rgb(245, 245, 245);
+    padding: 1.5rem 0 1.5rem 3rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0 0 8rem 0 rgb(0, 0, 0);
 }
 
-header .logo{
+header button{
+    transition: .3s;
+}
+
+header button:hover{
+    background: grey;
+}
+
+header .logo {
     font-weight: bolder;
     font-size: 2.5rem;
-    color:#333;
+    color: #333;
+    margin: 0 2rem 0 0;
 }
 
-header .logo span{
-    color:var(--red);
+header .logo span {
+    color: var(--red);
 }
 
-header .navbar a{
-    color:#333;
+header .navbar {
+    margin: 0 auto;
+}
+
+header .navbar a {
+    color: #333;
     font-size: 2rem;
-    padding:0 1.5rem;
+    font-weight: 700;
+    padding: 0 1.5rem;
+    transition: .4s;
 }
 
-header .navbar a:hover{
-    color:var(--red);
+header .navbar a:hover {
+    color: var(--red);
+    background-color: #fafafa;
+}
+
+header .icons{
+    margin: 0 5rem 0 0;
 }
 
 header .icons #menu-bars,
-header .icons a{
-    height:4.5rem;
+header .icons a {
+    height: 4.5rem;
     line-height: 4.5rem;
-    width:5rem;
+    width: 5rem;
     font-size: 2rem;
-    margin-right: .5rem;
+    margin: .5rem;
     border-radius: .5rem;
-    color:var(--red);
-    background:var(--light-red);
+    color: var(--red);
+    /* background: var(--light-red); */
     text-align: center;
+    transition: 1s;
 }
 
 header .icons #menu-bars:hover,
-header .icons a:hover{
-    background-color:var(--red);
-    color:#fff;
+header .icons a:hover {
+    background-color: var(--red);
+    color: #fff;
+    border-radius: 100%;
 }
 
-header .icons #menu-bars{
+header .icons #menu-bars {
     display: none;
 }
 
-.home{
+.home {
     min-height: 100vh;
-    background:url(../images/home-bg.jpg) no-repeat;
+    background: url(../images/home-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -127,71 +158,79 @@ header .icons #menu-bars{
     justify-content: center;
 }
 
-.home form{
+.home form {
     margin-top: 7rem;
-    background:var(--white);
+    background: var(--white);
     border-radius: .5rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-    border:.1rem solid rgba(0,0,0,.2);
-    width:70rem;
-    padding:2rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    border: .1rem solid rgba(0, 0, 0, .2);
+    width: 70rem;
+    padding: 2rem;
 }
 
-.home form h3{
+.home form h3 {
+    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-    color:#333;
+    color: #333;
     font-size: 3rem;
+    transition: .2s;
 }
 
-.home form .buttons-container{
+.home form h3:hover{
+    color: rgb(93, 93, 93);
+}
+
+.home form .buttons-container {
     display: flex;
-    gap:1.5rem;
+    gap: 1.5rem;
 }
 
-.home form .buttons-container .btn{
-    flex:1;
+.home form .buttons-container .btn {
+    flex: 1;
 }
 
-.home form .inputBox{
+.home form .inputBox {
     display: flex;
     flex-wrap: wrap;
-    gap:1.5rem;
+    gap: 1.5rem;
     margin-top: 2rem;
 }
 
 .home form .inputBox input,
-.home form .inputBox select{
-    flex:1 1 25rem;
-    border:.1rem solid #333;
-    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+.home form .inputBox select {
+    flex: 1 1 25rem;
+    border: .1rem solid #333;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
     font-size: 1.5rem;
-    padding:1rem;
+    padding: 1rem;
     text-transform: none;
 }
 
-.home form .btn{
+.home form .btn {
     width: 100%;
     margin-top: 2rem;
 }
 
 .dark-mode {
-    --red:#00838f ;
+    --red: #00838f;
     background-color: #002D33;
-    --light-red:black;
-    --white:#1c1c1c;
-    color: #fff;
+    --light-red: black;
+    --white: #1c1c1c;
+    color: rgb(255, 255, 255);
 }
 
 .light-mode {
     background-color: #fff;
-    color: black;
+    color: rgb(0, 0, 0);
 }
-button{
+
+button {
     padding: 10px;
     border-radius: 50%;
 }
-button:hover{
-    background-color:grey ;
+
+button:hover {
+    background-color: grey;
 }
 
 .spinner-wrapper {
@@ -202,35 +241,47 @@ button:hover{
     bottom: 0;
     background-color: #ff6347;
     z-index: 999999;
-    }
+}
 
 .spinner {
     width: 40px;
     height: 40px;
     background-color: #333;
-  
+
     position: absolute;
     top: 48%;
     left: 48%;
     -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
     animation: sk-rotateplane 1.2s infinite ease-in-out;
-  }
-  
-  @-webkit-keyframes sk-rotateplane {
-    0% { -webkit-transform: perspective(120px) }
-    50% { -webkit-transform: perspective(120px) rotateY(180deg) }
-    100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
-  }
-  
-  @keyframes sk-rotateplane {
-    0% { 
-      transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-      -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
-    } 50% { 
-      transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-      -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
-    } 100% { 
-      transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-      -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+}
+
+@-webkit-keyframes sk-rotateplane {
+    0% {
+        -webkit-transform: perspective(120px)
     }
-  }
+
+    50% {
+        -webkit-transform: perspective(120px) rotateY(180deg)
+    }
+
+    100% {
+        -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg)
+    }
+}
+
+@keyframes sk-rotateplane {
+    0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+    }
+
+    50% {
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+    }
+
+    100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+}
