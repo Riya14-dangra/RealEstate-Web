@@ -24,18 +24,28 @@
     <button onclick="lightMode()">  <i class="fa-solid fa-sun"></i></button>
     <a href="#" class="logo"><span>real</span>Estate</a>
 
-    <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#services">services</a>
-        <a href="#featured">featured</a>
-        <a href="#agents">agents</a>
-        <a href="#contact">contact</a>
+    <nav class=" navbar nav-wrapper ">
+      
+        <ul class="nav-list">
+           <li><a href="#home" class="active" >Home</a></li> 
+           <li><a href="#services">Services</a></li> 
+           <li><a href="#featured">Featured</a></li> 
+            <li><a href="#agents">Agents</a></li>
+            <li><a class="contact" href="#contact">Contact  </a></li>
+        </ul>
     </nav>
 
     <div class="icons">
-        <div id="menu-bars" class="fas fa-bars"></div>
-        <a href="#" class="fas fa-heart"></a>
-        <a href="#" class="fas fa-user"></a>
+        <div class="parent" >
+            <div class="item"><a href="#" class="fas fa-heart"></a> </div>
+            <div class="item"> <a href="#" class="fas fa-user"></a>  </div>
+            <div class="hamburger item">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+        </div>
+        
     </div>
 
 </header>
