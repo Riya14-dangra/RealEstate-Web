@@ -11,7 +11,7 @@ hidePreloader();
 function darkMode() {
     var element = document.body;
     element.className = "dark-mode";
-    let bg = document.querySelector('.nav-list');
+    let bg = document.querySelector('.navbar');
     bg.style. background = 'linear-gradient(45deg, #efdbdb, #00838f)';
 
    
@@ -19,16 +19,12 @@ function darkMode() {
   function lightMode() {
     var element = document.body;
     element.className = "light-mode";
-    let bg = document.querySelector('.nav-list');
+    let bg = document.querySelector('.navbar');
     bg.style. background = 'linear-gradient(45deg, #efdbdb, #f97a7a)';
 
    
   }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> bab1f0d5f23c281dc82484a076ea70fa2fa87b0d
   window.addEventListener('resize', function(){
     addRequiredClass();
 })
