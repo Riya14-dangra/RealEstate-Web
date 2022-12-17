@@ -429,3 +429,50 @@ button:hover{
     background:var(--red);
     color:#fff;
 }
+
+#Reviews{
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 0px;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#Reviews .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+    background-color: coral;
+}
+
+#Reviews .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+#Reviews .col-3:hover{
+    transform: translateY(-10px);
+}
