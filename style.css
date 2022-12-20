@@ -348,3 +348,128 @@ button:hover{
     text-align: center;
 }
 
+.agents .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    justify-content: center;
+}
+
+.agents .box-container .box{
+    background:#fff;
+    text-align: center;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    padding:2rem;
+    position: relative;
+    width:26rem;
+}
+
+.agents .box-container .box .fa-envelope{
+    position: absolute;
+    top:1.8rem; left:2rem;
+    color:#333;
+    font-size: 2rem;
+}
+
+.agents .box-container .box .fa-envelope:hover{
+    color:var(--red);
+}
+
+.agents .box-container .box .fa-phone{
+    position: absolute;
+    top:1.8rem; right:2rem;
+    color:#333;
+    font-size: 2rem;
+}
+
+.agents .box-container .box .fa-phone:hover{
+    color:var(--red);
+}
+
+.agents .box-container .box img{
+    border-radius: 50%;
+    box-shadow: 0 0 0 .5rem rgba(0,0,0,.1);
+    object-fit: cover;
+    height:15rem;
+    width:10rem;
+    margin:1rem 0;
+}
+
+.agents .box-container .box h3{
+    font-size: 2rem;
+    color:#333;
+}
+
+.agents .box-container .box span{
+    font-size: 1.7rem;
+    color:var(--red);
+}
+
+.agents .box-container .box .share{
+    padding-top: 2rem;
+}
+
+.agents .box-container .box .share a{
+    margin:0 .3rem;
+    height:4rem;
+    width:4rem;
+    line-height: 4rem;
+    background:#f7f7f7;
+    color:#666;
+    border-radius: .5rem;
+    font-size: 2rem;
+}
+
+.agents .box-container .box .share a:hover{
+    background:var(--red);
+    color:#fff;
+}
+
+#Reviews{
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 0px;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#Reviews .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+    background-color: coral;
+}
+
+#Reviews .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+#Reviews .col-3:hover{
+    transform: translateY(-10px);
+}
