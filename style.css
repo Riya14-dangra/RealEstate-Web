@@ -531,8 +531,8 @@ button:hover{
     height: 100vh;
     padding-top: 100px;
 }
-
-.row{
+/* ////////////////////////  */
+#Reviews .row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -572,3 +572,55 @@ button:hover{
 #Reviews .col-3:hover{
     transform: translateY(-10px);
 }
+
+/* ////////////////////footer  */
+.footer {
+    background-color: rgb(229, 246, 51);
+    width: 100vw;
+    height: 50vh;
+    font-size: medium;
+    font-weight: 600;
+    
+}
+
+.footer .row{
+    display: flex; 
+    justify-content: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+
+.footer .col-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .head{
+    font-size: 50px;
+}
+.heads{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer form {
+    padding-bottom: 30px;
+}
+.footer .quick{
+    padding-bottom: 10px;
+    padding-left: 10vw;
+}
+
+.footer a:hover{
+    color: #00acee;
+}
+.footer .real_estate{
+    display: flex;
+}
+.footer .head_e{
+    color: #ff5a3c;
+}
+
+
