@@ -572,3 +572,97 @@ button:hover{
 #Reviews .col-3:hover{
     transform: translateY(-10px);
 }
+
+/* Footer css */
+.avi-footer-logo h1{
+    font-size: 3.7rem !important;
+    padding: 0 !important;
+}
+.avi-Footer-logo-inner-text{
+    color: #ff5a3c;
+    font-weight: bold;
+}
+.avi-footer-logo-text{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.avi-footer-p-text{
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 600;
+    color: #464444;
+}
+.avi-footer-link{
+    margin-top: 6rem;
+    padding-left: 8rem;
+    text-align: justify;
+    
+}
+
+.avi-footer-titeslink{
+    color: #333333;
+    font-size: 2.5rem !important;
+    font-weight: bolder;
+}
+.avi-footer-link a{
+    font-size: 1.6rem;
+    color: #716d6d;
+    text-decoration: none;
+    font-weight: 700;
+}
+.avi-footer-link a:hover{
+    color: #ff5a3c;
+    font-size: 1.8rem;
+}
+.avi-footer-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4rem;
+}
+.avi-contact-link{
+    text-decoration: none;
+    color: #615e5e;
+    font-size: 1.4rem;
+}
+.avi-footer-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.avi-footer-social-links{
+    margin-top: 6rem;
+    padding-left: 8rem;
+    
+}
+.avi-footer-social-links h1{
+    font-size: 3rem !important;
+    font-weight: bolder;
+}
+.social-media-links a{
+    text-decoration: none;
+    color: #333333;
+}
+.social-media-links a:hover{
+    color: #ff5a3c;
+}
+.avi-submit-button{
+    margin-top: 0 !important;
+    background-color: #615e5e !important;
+}
+.avi-submit-button:hover{
+    background-color: #ff5a3c !important;
+}
+.avi-footer-copyright{
+    text-align: center;
+    font-size: 1.4rem;
+    padding-bottom: 0.8rem;
+}
+.fst-italic a{
+    text-decoration: none;
+    color: #212529;
+}
+.foot a{
+    text-decoration: none;
+    color: #2b292a;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
