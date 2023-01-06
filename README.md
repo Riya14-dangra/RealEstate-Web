@@ -8,36 +8,39 @@
 
 ## 🛠️ Installation Steps
 
-### **1**. [Fork](https://github.com/Riya14-dangra/RealEstate-Web) the project. Click on the <a href="https://github.com/Riya14-dangra/RealEstate-Web/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="15" width="15"></a> icon in the top right to get started
+**1**. [Fork](https://github.com/Riya14-dangra/RealEstate-Web) the project. Click on the <a href="https://github.com/Riya14-dangra/RealEstate-Web/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="15" width="15"></a> icon in the top right to get started
 
 
-## **2**. Clone the project, you can use the following command:
+**2**. Clone the project, you can use the following command:
 
 ```bash
 git clone https://github.com/Riya14-dangra/RealEstate-Web
 ```
 
 ## 🥂 After making a change
-
-## **1**. Create a new branch
-
-```bash
-git checkout -b YourBranchName
-```
-
-## **2**. Add it to staging area
+**1**. Create a new branch
 
 ```bash
-git add <filenames>
+git checkout -b <YourBranchName>
 ```
 
-## **3**. Commit your changes with
+**2**. Add it to staging area
+
+```bash
+git add <path to the file you worked on>
+```
+or
+```bash
+git add .
+```
+
+**3**. Commit your changes with
 
 ```bash
 git cz
 ```
 
-## **4**. Push your changes
+ **4**. Push your changes
 
 ```bash
 git push
