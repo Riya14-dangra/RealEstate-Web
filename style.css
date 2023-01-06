@@ -183,6 +183,10 @@ header .icons a:hover{
 
 /* Contact Section */
 
+.contact {
+    background-color: #f9edeb;
+}
+
 .center {
     text-align: center;
     font-size: 4rem;
@@ -269,17 +273,18 @@ header .icons a:hover{
     margin: 20px;
 }
 
-.fa-twitter:hover {
+.twitter:hover {
     color:#00acee;
 }
 
-.fa-instagram:hover {
+.instagram:hover {
     color: #e95950;
 }
 
-.fa-facebook:hover {
+.facebook:hover {
     color:#3b5998;
 }
+
 .dark-mode {
     --red:#00838f ;
     background-color: #002D33;
@@ -528,8 +533,8 @@ button:hover{
 
 #Reviews{
     width: 100%;
-    height: 100vh;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .row{
