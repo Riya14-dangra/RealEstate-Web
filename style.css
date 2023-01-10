@@ -528,7 +528,7 @@ button:hover{
 
 #Reviews{
     width: 100%;
-    height: 100vh;
+    padding-bottom: 20vh;
     padding-top: 100px;
 }
 /* ////////////////////////  */
@@ -575,9 +575,11 @@ button:hover{
 
 /* ////////////////////footer  */
 .footer {
-    background-color: rgb(229, 246, 51);
-    width: 100vw;
-    height: 50vh;
+    position: relative;
+    margin-top: 40px;
+    padding-top: 40px;
+    background-color: rgb(232, 183, 205);
+    width: 100vw;  
     font-size: medium;
     font-weight: 600;
     
@@ -586,14 +588,14 @@ button:hover{
 .footer .row{
     display: flex; 
     justify-content: center;
-    padding-left: 10vw;
-    padding-right: 10vw;
-
+    flex-wrap: wrap;
+    
 }
 
-.footer .col-3{
+.footer .col-2{
     display: flex;
     flex-direction: column;
+    padding: 4vw;
 }
 
 .footer .head{
